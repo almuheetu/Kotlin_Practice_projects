@@ -2,8 +2,19 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main(args: Array<String>) {
 
-    println("Hello World!")
+    Int
+    String
+    Boolean
+    Float
+    Double
+    Long
+    Char
+    Byte
+    Short
 
-    println("Hello World ")
+    var name : String = "Dev"
+
+    println("Hello $name, Welcome to kotlin World!")
+
 
 }
