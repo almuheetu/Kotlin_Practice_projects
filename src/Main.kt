@@ -12,9 +12,13 @@ fun main(args: Array<String>) {
     Byte
     Short
 
-    var name : String = "Dev"
+//    var name : String = "Dev"
+    var myname = "Shihab"
+    var age : Int = 22
 
-    println("Hello $name, Welcome to kotlin World!")
 
+//    println("Hello $myname, Welcome to kotlin World!")
+    println("Hello My name is $myname")
+    println("I am $age Years old")
 
 }
