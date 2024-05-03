@@ -28,12 +28,25 @@ fun main(args: Array<String>) {
 
 //    Conditional Statements
 
-    var num = 111
+//    var num = 111
+//
+//    if (num>100){
+//        println("No. is Greater")
+//    } else {
+//        println("No. is Smaller")
+//    }
 
-    if (num>100){
-        println("No. is Greater")
-    } else {
-        println("No. is Smaller")
+
+//   # For and For Each Loop
+
+
+
+    println("Hello My name is Shihab")
+
+    var num = 0
+
+    for (i in 0..10){
+        println("Number is: ${num++}")
     }
 }
 //fun add(a: Int, b: Int) : Any {
