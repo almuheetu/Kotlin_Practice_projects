@@ -54,16 +54,38 @@ fun main(args: Array<String>) {
 //    println(args.contentToString())
 
 //    println
-
-    println("Hello World!")
-    println("I am learning Kotlin.")
-    println("It is awesome!")
-    println(3*3)
+// val name = "Shihab is a not good boy"
+//    println("Hello World! $name")
+//    println("I am learning Kotlin.")
+//    println("It is awesome!")
+//    println(3*3)
 
 //    print
-    print("Hello World! ")
-    print("I am learning Kotlin. ")
-    print("It is awesome!")
+//    print("Hello World! ")
+//    print("I am learning Kotlin. ")
+//    print("It is awesome!")
+
+    println("Hello Shihab")
+
+
+
+//Do, While loop practice
+//    var num = 10;
+
+//    while (num<20){
+//        println("Num is:$num")
+//        num++;
+//    }
+//    do {
+//        println("My num is $num")
+//    }while (num>10)
+
+
+
+//    Triple,pair
+
+    var (a,b) = Pair("A", true)
+    println("$a $b")
 }
 //fun add(a: Int, b: Int) : Any {
 //    return a+b
