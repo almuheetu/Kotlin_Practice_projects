@@ -48,7 +48,22 @@ fun main(args: Array<String>) {
 //    for (i in 0..10){
 //        println("Number is: ${num++}")
 //    }
-    println(args.contentToString())
+
+
+
+//    println(args.contentToString())
+
+//    println
+
+    println("Hello World!")
+    println("I am learning Kotlin.")
+    println("It is awesome!")
+    println(3*3)
+
+//    print
+    print("Hello World! ")
+    print("I am learning Kotlin. ")
+    print("It is awesome!")
 }
 //fun add(a: Int, b: Int) : Any {
 //    return a+b
