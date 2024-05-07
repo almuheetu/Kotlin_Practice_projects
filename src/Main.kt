@@ -1,6 +1,47 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+open class Base( val name: String){
+    init {
+        println("Initializing a base class")
+    }
+    open val size: Int =
+        name.length
+
+    open fun printName(){
+        println("print base class $size")
+    }
+
+}
+class Derived(
+    name: String,
+    val lastName: String,
+) : Base(name){
+    init {
+        println("Initializing a derived class")
+    }
+
+//    override val size: Int =
+//        (super.size + lastName.length)
+
+    override fun printName() {
+        super.printName()
+        println("print child class $size")
+    }
+
+
+}
+
+
+
 fun main(args: Array<String>) {
+
+
+    println("Constructing the derived class()")
+    Derived(
+        name = "hello",
+        lastName = "World"
+    ).printName()
+
 
 //    Int
 //    String
@@ -65,7 +106,7 @@ fun main(args: Array<String>) {
 //    print("I am learning Kotlin. ")
 //    print("It is awesome!")
 
-    println("Hello Shihab")
+//    println("Hello Shihab")
 
 
 
@@ -84,8 +125,10 @@ fun main(args: Array<String>) {
 
 //    Triple,pair
 
-    var (a,b) = Pair("A", true)
-    println("$a $b")
+//    val (a,b) = Pair("A", true)
+//    println("$a $b")
+
+//    val name = Pair("Shihab", Pair("Ramajan Pair)
 }
 //fun add(a: Int, b: Int) : Any {
 //    return a+b
