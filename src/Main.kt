@@ -1,5 +1,9 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
+//Derived class initialization order
+
 open class Base( val name: String){
     init {
         println("Initializing a base class")
@@ -35,6 +39,7 @@ class Derived(
 
 fun main(args: Array<String>) {
 
+//    Derived class initialization order
 
     println("Constructing the derived class()")
     Derived(
