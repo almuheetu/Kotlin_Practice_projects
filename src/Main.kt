@@ -8,7 +8,7 @@ open class Base( val name: String){
         name.length
 
     open fun printName(){
-        println("print base class $size")
+        println("print base class ${name.length}")
     }
 
 }
@@ -20,8 +20,8 @@ class Derived(
         println("Initializing a derived class")
     }
 
-//    override val size: Int =
-//        (super.size + lastName.length)
+    override val size: Int =
+        (super.size + lastName.length)
 
     override fun printName() {
         super.printName()
