@@ -4,48 +4,51 @@
 
 //Derived class initialization order
 
-open class Base( val name: String){
-    init {
-        println("Initializing a base class")
-    }
-    open val size: Int =
-        name.length
-
-    open fun printName(){
-        println("print base class ${name.length}")
-    }
-
-}
-class Derived(
-    name: String,
-    val lastName: String,
-) : Base(name){
-    init {
-        println("Initializing a derived class")
-    }
-
-    override val size: Int =
-        (super.size + lastName.length)
-
-    override fun printName() {
-        super.printName()
-        println("print child class $size")
-    }
-
-
-}
+//open class Base( val name: String){
+//    init {
+//        println("Initializing a base class")
+//    }
+//    open val size: Int =
+//        name.length
+//
+//    open fun printName(){
+//        println("print base class ${name.length}")
+//    }
+//
+//}
+//class Derived(
+//    name: String,
+//    val lastName: String,
+//) : Base(name){
+//    init {
+//        println("Initializing a derived class")
+//    }
+//
+//    override val size: Int =
+//        (super.size + lastName.length)
+//
+//    override fun printName() {
+//        super.printName()
+//        println("print child class $size")
+//    }
+//
+//
+//}
 
 
 
 fun main(args: Array<String>) {
 
+
+//    Companion Object
+
 //    Derived class initialization order
 
-    println("Constructing the derived class()")
-    Derived(
-        name = "hello",
-        lastName = "World"
-    ).printName()
+//    println("Constructing the derived class()")
+//    Derived(
+//        name = "hello",
+//        lastName = "World"
+//    ).printName()
 
 
 //    Int
@@ -135,6 +138,19 @@ fun main(args: Array<String>) {
 
 //    val name = Pair("Shihab", Pair("Ramajan Pair)
 }
+
+
+//    Companion Object
+class CompanionClass {
+    var firstNp = 10
+
+    fun Add(a: Int, b:Int): Int {
+        return a+b
+    }
+    companion object
+}
+
+
 //fun add(a: Int, b: Int) : Any {
 //    return a+b
 //}
