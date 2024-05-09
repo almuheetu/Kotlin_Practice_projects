@@ -141,14 +141,16 @@ fun main(args: Array<String>) {
 
 
 //    Companion Object
-class CompanionClass {
-    var firstNp = 10
-
-    fun Add(a: Int, b:Int): Int {
-        return a+b
-    }
-    companion object
-}
+//class CompanionClass {
+//    var firstNp = 10
+//
+//    fun Add(a: Int, b:Int): Int {
+//        return a+b
+//    }
+//    companion object{
+//        var secondNo =
+//    }
+//}
 
 
 //fun add(a: Int, b: Int) : Any {
