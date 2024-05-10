@@ -40,6 +40,27 @@
 fun main(args: Array<String>) {
 
 
+
+//    for practice
+
+
+    // Class
+
+    class Person {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    Companion Object
 
 //    Derived class initialization order
