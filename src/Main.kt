@@ -1,3 +1,5 @@
+import java.lang.reflect.Constructor
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 //// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
@@ -36,19 +38,45 @@
 //}
 
 
+//    Constructor
+
+//    class Person constructor(firstName: String) {
+//
+//    }
+
+//    class Person(firstName: String){}
+
+
+// Example:-
+class InitOrderDemo(name: String){
+    val firstProperty = "First property: $name". also ( ::println )
+
+    init {
+        println("First intializer block that prints $name")
+    }
+    val secondProperty = "Second property: ${name.length}".also (::println)
+
+    init{
+        println("Second initializer block that prints ${name.length}")
+    }
+
+}
+
 
 fun main(args: Array<String>) {
 
-
+InitOrderDemo("Hello")
 
 //    for practice
 
 
     // Class
 
-    class Person {}
+//   class Person {}
 
+    //    Empty class
 
+//    class Empty
 
 
 
