@@ -48,24 +48,24 @@ import java.lang.reflect.Constructor
 
 
 // Example:-
-class InitOrderDemo(name: String){
-    val firstProperty = "First property: $name". also ( ::println )
+//class InitOrderDemo(name: String){
+//    val firstProperty = "First property: $name". also ( ::println )
+//
+//    init {
+//        println("First intializer block that prints $name")
+//    }
+//    val secondProperty = "Second property: ${name.length}".also (::println)
+//
+//    init{
+//        println("Second initializer block that prints ${name.length}")
+//    }
+//
+//}
 
-    init {
-        println("First intializer block that prints $name")
-    }
-    val secondProperty = "Second property: ${name.length}".also (::println)
-
-    init{
-        println("Second initializer block that prints ${name.length}")
-    }
-
-}
-
-
+var count
 fun main(args: Array<String>) {
 
-InitOrderDemo("Hello")
+//InitOrderDemo("Hello, Kotlin")
 
 //    for practice
 
@@ -186,7 +186,31 @@ InitOrderDemo("Hello")
 //    println("$a $b")
 
 //    val name = Pair("Shihab", Pair("Ramajan Pair)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
 //    Companion Object
