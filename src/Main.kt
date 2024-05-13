@@ -62,7 +62,7 @@ import java.lang.reflect.Constructor
 //
 //}
 
-var count
+
 fun main(args: Array<String>) {
 
 //InitOrderDemo("Hello, Kotlin")

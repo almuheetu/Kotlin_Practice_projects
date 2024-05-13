@@ -66,7 +66,7 @@ fun main() {
 //    myCar.horsePoser = ""
 //    myCar.start()
 
-
+test()
 
 
 //    val human = Human(male = Male(), female = Female, cloth = Cloth)
